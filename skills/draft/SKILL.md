@@ -5,21 +5,23 @@ description: Drafts UK GDPR compliance documents from full templates — privacy
 
 # UK GDPR Document Drafting (v2 — full templates)
 
-The user wants help with: $ARGUMENTS (if empty, ask which document they need).
+Determine the requested document and facts from the current user request. If the document type is missing, ask which document is needed.
 
-Read `${CLAUDE_PLUGIN_ROOT}/references/legal-framework.md` and `${CLAUDE_PLUGIN_ROOT}/references/duaa-2025-changes.md` before drafting, then start from the matching template:
+Resolve `<PLUGIN_ROOT>` before reading bundled material: use `${CLAUDE_PLUGIN_ROOT}` when the runtime expands it; otherwise use the repository or installed plugin root two directories above this `SKILL.md`.
+
+Read `<PLUGIN_ROOT>/references/legal-framework.md` and `<PLUGIN_ROOT>/references/duaa-2025-changes.md` before drafting, then start from the matching template:
 
 | Document | Template | Authority |
 |---|---|---|
-| Privacy notice | `${CLAUDE_PLUGIN_ROOT}/templates/privacy-notice.md` | Arts 12–14 |
-| RoPA (controller) | `${CLAUDE_PLUGIN_ROOT}/templates/ropa-controller.md` | Art 30(1) |
-| RoPA (processor) | official ICO workbook: `${CLAUDE_PLUGIN_ROOT}/sources/ico-ropa-template-processor.xlsx` | Art 30(2) |
-| DPIA | `${CLAUDE_PLUGIN_ROOT}/templates/dpia.md` (mirrors the ICO sample template; worked example in `sources/ico-dpia-example-completed.pdf`) | Art 35 |
-| Processor agreement (DPA) | `${CLAUDE_PLUGIN_ROOT}/templates/processor-agreement.md` | Art 28(3) |
-| LIA | `${CLAUDE_PLUGIN_ROOT}/templates/lia.md` | Art 6(1)(f) |
-| Breach notification — ICO | `${CLAUDE_PLUGIN_ROOT}/templates/breach-notification-ico.md` | Art 33 |
-| Breach notification — individuals | `${CLAUDE_PLUGIN_ROOT}/templates/breach-notification-individuals.md` | Art 34 |
-| Transfer risk assessment (TRA) | `${CLAUDE_PLUGIN_ROOT}/templates/tra.md` — applies the DUAA "not materially lower" test | Art 46 (as amended by DUAA 2025) |
+| Privacy notice | `<PLUGIN_ROOT>/templates/privacy-notice.md` | Arts 12–14 |
+| RoPA (controller) | `<PLUGIN_ROOT>/templates/ropa-controller.md` | Art 30(1) |
+| RoPA (processor) | official ICO workbook: `<PLUGIN_ROOT>/sources/ico-ropa-template-processor.xlsx` | Art 30(2) |
+| DPIA | `<PLUGIN_ROOT>/templates/dpia.md` (mirrors the ICO sample template; worked example in `sources/ico-dpia-example-completed.pdf`) | Art 35 |
+| Processor agreement (DPA) | `<PLUGIN_ROOT>/templates/processor-agreement.md` | Art 28(3) |
+| LIA | `<PLUGIN_ROOT>/templates/lia.md` | Art 6(1)(f) |
+| Breach notification — ICO | `<PLUGIN_ROOT>/templates/breach-notification-ico.md` | Art 33 |
+| Breach notification — individuals | `<PLUGIN_ROOT>/templates/breach-notification-individuals.md` | Art 34 |
+| Transfer risk assessment (TRA) | `<PLUGIN_ROOT>/templates/tra.md` — applies the DUAA "not materially lower" test | Art 46 (as amended by DUAA 2025) |
 | International transfers | use the official instruments directly: `sources/ico-idta.pdf` (IDTA) / `sources/ico-addendum.pdf` (UK Addendum) — populate their tables; do not improvise transfer clauses | Art 46, DPA 2018 s.119A |
 
 ## Workflow

@@ -60,6 +60,8 @@ Codex discovers the repository-scoped ports from `.agents/skills/` when you work
 
 The Codex skills reuse the same `references/`, `templates/`, and `sources/` content as the Claude Code plugin. Clone the repository and start Codex anywhere inside the checkout; no separate copy of those shared resources is required.
 
+The repository is also a Codex plugin, described by `.codex-plugin/plugin.json`. Installing the plugin makes the complete skill suite and its shared resources persistently available beyond this checkout.
+
 ## Usage examples
 
 ```
