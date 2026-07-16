@@ -36,14 +36,23 @@ Verified source documents ship with the plugin — see `sources/SOURCES.md` for 
 
 ## Installation
 
-From a local clone:
+This repository is itself a Claude Code plugin marketplace. To install for your user account (available across all your projects on that machine):
 
 ```bash
-git clone https://github.com/13fingerfx/gdpr-uk.git
-claude --plugin-dir ./gdpr-uk
+claude plugin marketplace add 13fingerfx/GDPR-UK
+claude plugin install gdpr-uk@gdpr-uk-marketplace
 ```
 
-Or add this repository as a marketplace source and install the `gdpr-uk` plugin from it. After changes, run `/reload-plugins` inside Claude Code.
+Or from inside a Claude Code session: `/plugin marketplace add 13fingerfx/GDPR-UK`, then `/plugin install gdpr-uk`. Update later with `claude plugin update gdpr-uk`.
+
+For one-off local development/testing:
+
+```bash
+git clone https://github.com/13fingerfx/GDPR-UK.git
+claude --plugin-dir ./GDPR-UK
+```
+
+After changing plugin files mid-session, run `/reload-plugins` inside Claude Code.
 
 ## Usage examples
 
