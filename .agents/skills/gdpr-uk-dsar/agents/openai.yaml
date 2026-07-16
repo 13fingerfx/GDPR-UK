@@ -1,0 +1,4 @@
+interface:
+  display_name: "UK GDPR DSAR"
+  short_description: "Run UK subject access request workflows"
+  default_prompt: "Use $gdpr-uk-dsar to plan and manage this UK subject access request."

@@ -5,12 +5,14 @@ description: UK GDPR compliance review of code, configurations, database schemas
 
 # UK GDPR Compliance Review
 
-You are performing a UK data protection compliance review of code, configuration, schemas, or described data flows. Target of review: $ARGUMENTS (if empty, ask the user what to review, or review the current repository).
+Perform a UK data protection compliance review of the code, configuration, schemas, or data flows identified in the current user request. If no target is supplied, review the current repository or ask when scope is ambiguous.
+
+Resolve `<PLUGIN_ROOT>` before reading bundled material: use `${CLAUDE_PLUGIN_ROOT}` when the runtime expands it; otherwise use the repository or installed plugin root two directories above this `SKILL.md`.
 
 **Before analysing**, read the reference files for the current legal position:
-- `${CLAUDE_PLUGIN_ROOT}/references/legal-framework.md` — always
-- `${CLAUDE_PLUGIN_ROOT}/references/duaa-2025-changes.md` — always (the law changed materially in Feb 2026)
-- `${CLAUDE_PLUGIN_ROOT}/references/exemptions.md` — when exemptions, DSAR handling, or public-sector/law-enforcement contexts arise
+- `<PLUGIN_ROOT>/references/legal-framework.md` — always
+- `<PLUGIN_ROOT>/references/duaa-2025-changes.md` — always (the law changed materially in Feb 2026)
+- `<PLUGIN_ROOT>/references/exemptions.md` — when exemptions, DSAR handling, or public-sector/law-enforcement contexts arise
 
 ## Methodology
 

@@ -5,14 +5,16 @@ description: UK data protection advisory Q&A — answers questions about UK GDPR
 
 # UK GDPR Advisory
 
-Question to answer: $ARGUMENTS (if empty, ask what the user wants to know).
+Determine the question from the current user request. If no question is supplied, ask what the user wants to know.
+
+Resolve `<PLUGIN_ROOT>` before reading bundled material: use `${CLAUDE_PLUGIN_ROOT}` when the runtime expands it; otherwise use the repository or installed plugin root two directories above this `SKILL.md`.
 
 **Ground every answer in the reference files** — read before answering:
-- `${CLAUDE_PLUGIN_ROOT}/references/legal-framework.md` — always
-- `${CLAUDE_PLUGIN_ROOT}/references/duaa-2025-changes.md` — always; the law was materially amended with effect from February 2026 and pre-DUAA training knowledge is stale on ADM, DSARs, transfers, cookies, and PECR fines
-- `${CLAUDE_PLUGIN_ROOT}/references/exemptions.md` — for any question about withholding data, refusing rights requests, DSAR carve-outs, or public-sector/law-enforcement contexts
+- `<PLUGIN_ROOT>/references/legal-framework.md` — always
+- `<PLUGIN_ROOT>/references/duaa-2025-changes.md` — always; the law was materially amended with effect from February 2026 and pre-DUAA training knowledge is stale on ADM, DSARs, transfers, cookies, and PECR fines
+- `<PLUGIN_ROOT>/references/exemptions.md` — for any question about withholding data, refusing rights requests, DSAR carve-outs, or public-sector/law-enforcement contexts
 
-Primary sources live in `${CLAUDE_PLUGIN_ROOT}/sources/` — see `sources/SOURCES.md` for the manifest, verified coverage and known gaps. Highlights: the full DPA 2018 (`data-protection-act-2018.pdf`, as enacted), the full DUAA 2025 (`data-use-and-access-act-2025.pdf` — check here for exact amendment wording), the **complete UK GDPR consolidated text** point-in-time 5 Feb 2026 (`uk-gdpr-2026-02-05-complete.pdf` — all Articles 1–99 and Annexes 1–2, including the DUAA-inserted Arts 4A, 8A, 11A, 22A–22D and the Annex 1 recognised legitimate interests; use this for any article-level question), **PECR fully consolidated to 16 July 2026** (`pecr-2003-consolidated-2026-07-16.pdf` — the substituted reg 6 and Schedule A1 cookie exceptions; use this for any cookies/e-marketing question), the ICO exemptions guide, the ICO right-of-access guidance (124 pages, Dec 2025), and the ICO breach-assessment guide. Consult the instruments directly for article/section-level detail the summaries don't cover.
+Primary sources live in `<PLUGIN_ROOT>/sources/` — see `sources/SOURCES.md` for the manifest, verified coverage and known gaps. Highlights: the full DPA 2018 (`data-protection-act-2018.pdf`, as enacted), the full DUAA 2025 (`data-use-and-access-act-2025.pdf` — check here for exact amendment wording), the **complete UK GDPR consolidated text** point-in-time 5 Feb 2026 (`uk-gdpr-2026-02-05-complete.pdf` — all Articles 1–99 and Annexes 1–2, including the DUAA-inserted Arts 4A, 8A, 11A, 22A–22D and the Annex 1 recognised legitimate interests; use this for any article-level question), **PECR fully consolidated to 16 July 2026** (`pecr-2003-consolidated-2026-07-16.pdf` — the substituted reg 6 and Schedule A1 cookie exceptions; use this for any cookies/e-marketing question), the ICO exemptions guide, the ICO right-of-access guidance (124 pages, Dec 2025), and the ICO breach-assessment guide. Consult the instruments directly for article/section-level detail the summaries don't cover.
 
 ## How to answer
 

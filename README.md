@@ -54,6 +54,14 @@ claude --plugin-dir ./GDPR-UK
 
 After changing plugin files mid-session, run `/reload-plugins` inside Claude Code.
 
+### Codex
+
+Codex discovers the repository-scoped ports from `.agents/skills/` when you work inside this checkout. Invoke them explicitly with `$gdpr-uk-review`, `$gdpr-uk-draft`, `$gdpr-uk-advise`, or `$gdpr-uk-dsar`; Codex can also select them automatically from a matching request.
+
+The Codex skills reuse the same `references/`, `templates/`, and `sources/` content as the Claude Code plugin. Clone the repository and start Codex anywhere inside the checkout; no separate copy of those shared resources is required.
+
+The repository is also a Codex plugin, described by `.codex-plugin/plugin.json`. Installing the plugin makes the complete skill suite and its shared resources persistently available beyond this checkout.
+
 ## Usage examples
 
 ```

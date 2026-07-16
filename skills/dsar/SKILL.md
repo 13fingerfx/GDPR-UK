@@ -5,9 +5,11 @@ description: End-to-end workflow for handling a subject access request (SAR/DSAR
 
 # DSAR Response Workflow
 
-Situation: $ARGUMENTS (if empty, ask what stage the request is at and what's been done so far — the deadline may already be running).
+Determine the situation from the current user request. If the stage and actions taken are unclear, ask promptly because the deadline may already be running.
 
-**Read first**: `${CLAUDE_PLUGIN_ROOT}/references/legal-framework.md` and `${CLAUDE_PLUGIN_ROOT}/references/duaa-2025-changes.md`. For detailed operational questions, consult the ICO's Right of Access guidance directly: `${CLAUDE_PLUGIN_ROOT}/sources/ico-right-of-access.pdf` (v1.0.87, 8 Dec 2025, 124 pages). For exemptions: `${CLAUDE_PLUGIN_ROOT}/references/exemptions.md`.
+Resolve `<PLUGIN_ROOT>` before reading bundled material: use `${CLAUDE_PLUGIN_ROOT}` when the runtime expands it; otherwise use the repository or installed plugin root two directories above this `SKILL.md`.
+
+**Read first**: `<PLUGIN_ROOT>/references/legal-framework.md` and `<PLUGIN_ROOT>/references/duaa-2025-changes.md`. For detailed operational questions, consult the ICO's Right of Access guidance directly: `<PLUGIN_ROOT>/sources/ico-right-of-access.pdf` (v1.0.87, 8 Dec 2025, 124 pages). For exemptions: `<PLUGIN_ROOT>/references/exemptions.md`.
 
 > **Currency warning**: the ICO guidance in `sources/` predates DUAA commencement (5 Feb 2026). Its operational detail stands, but two points now have a **statutory** footing that the guidance describes only as practice: (1) the search duty is limited to a **reasonable and proportionate** search; (2) the response clock **pauses while you await clarification** you reasonably requested. Cite these to UK GDPR Art 15 as amended by DUAA 2025, not just to the guidance.
 
