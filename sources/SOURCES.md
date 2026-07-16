@@ -10,6 +10,7 @@ Every file in this directory was inspected and verified on 16 July 2026. Skills 
 | `data-use-and-access-act-2025.pdf` | Data (Use and Access) Act 2025, c.18, as enacted | Complete — 276 pages. This is the amending Act itself; read its Part on data protection for the exact amendment wording |
 | `uk-gdpr-2026-02-05-arts-1-35.pdf` | UK GDPR consolidated text, point-in-time 5 Feb 2026 (legislation.gov.uk) — **Articles 1–35 only** | Partial — includes DUAA-inserted Arts 4A, 8A, 11A, 22A–22D. **Missing Arts 36–99 and Annexes 1–2** (the download truncated) |
 | `uk-gdpr-from-govuk.pdf` | GOV.UK overview page of UK data protection | Complete but non-authoritative summary |
+| `pecr-2003-consolidated-2026-07-16.pdf` | PECR (SI 2003/2426), legislation.gov.uk point-in-time **16 July 2026** — fully amended | Complete — 47 pages. Verified to carry the DUAA rewrite: reg 6 substituted (5 Feb 2026) by DUAA s.112(2), new reg 6A, and Schedule A1 (inserted by DUAA Sch 12) containing the consent condition and exceptions |
 
 ## ICO guidance and instruments
 
@@ -23,6 +24,7 @@ Every file in this directory was inspected and verified on 16 July 2026. Skills 
 | `ico-dpia-example-completed.pdf` | A **completed** DPIA published by the ICO ("Proactive Disclosures") — a worked example, not guidance. Renamed from `ico-dpia-guidance.pdf` | Complete — 18 pages |
 | `ico-ropa-template-processor.xlsx` | ICO record of processing activities template — **processor** version | Complete — official workbook |
 | `ico-idta.pdf` | International Data Transfer Agreement, version A1.0, in force 21 Mar 2022 (issued under DPA 2018 s.119A) | Complete — 36 pages |
+| `ico-scc-dpia-guidance-surveillance-cameras.pdf` | Joint Surveillance Camera Commissioner / ICO DPIA guidance for **surveillance camera systems** (v3). Renamed from `SCC___ICO_DPIA_guidance_V3_FINAL_PDF.pdf` | Complete — 5 pages. CCTV-specific, not the general ICO DPIA guidance |
 | `ico-addendum.pdf` | UK Addendum to the EU SCCs, version B1.0, in force 21 Mar 2022 | Complete — 9 pages |
 
 ## Removed (16 July 2026) — do not re-add these versions
@@ -31,12 +33,13 @@ Every file in this directory was inspected and verified on 16 July 2026. Skills 
 - `uk-gdpr-point-in-time-2026-02-05.pdf` — truncated at Article 9; strict subset of the retained arts-1-35 file.
 - `pecr-2003.pdf` — the **original as-made 2003 SI**. Its regulation 6 predates the 2011 consent amendment (it says "opportunity to refuse", not consent) and none of the DUAA changes — actively misleading for current advice.
 - `ico-childrens-code-guidance.pdf`, `ico-documentation-guidance.pdf` — website landing-page printouts with navigation only, no substantive guidance.
+- `dpia-template.docx` (removed 16 July 2026) — duplicate of `ico-dpia-template.docx` (same ICO Sample DPIA template, re-downloaded).
 
 ## Wanted — gaps to fill
 
 1. **UK GDPR Articles 36–99 + Annexes 1–2** (point-in-time 5 Feb 2026 or later). Best source: legislation.gov.uk's own generated PDF at `https://www.legislation.gov.uk/eur/2016/679/2026-02-05/data.pdf` — this is the whole consolidated instrument in one file (avoids browser print truncation).
-2. **PECR as amended** (SI 2003/2426, latest revised version): `https://www.legislation.gov.uk/uksi/2003/2426/data.pdf` from the *latest available (revised)* view — must contain the 2011 consent wording in reg 6 and DUAA amendments.
-3. **ICO DPIA guidance** (the "how to do a DPIA" document — the previous file under this name was actually a worked example).
+2. ~~PECR as amended~~ — **filled** 16 July 2026 (`pecr-2003-consolidated-2026-07-16.pdf`).
+3. **ICO DPIA guidance** — the general "how to do a DPIA" document (the two files received under this description so far were a worked example and the CCTV-specific SCC/ICO guidance).
 4. **ICO Children's Code** — the Age Appropriate Design Code itself (15 standards), PDF from ico.org.uk.
 5. **ICO RoPA controller template** (xlsx) — we only have the processor version.
 6. Nice to have: ICO Data Sharing Code of Practice; ICO consent guidance; ICO legitimate interests guidance.

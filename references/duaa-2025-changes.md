@@ -44,9 +44,11 @@ Adequacy regulations (s.17A DPA 2018) and Art 46 transfer-tool risk assessments 
 
 ## 6. PECR: cookies and marketing
 
-- **Consent exemptions widened** beyond "strictly necessary": first-party **statistical/analytics** to improve the service, **appearance/functionality** preferences, **security** updates, emergency assistance — with clear information and an opt-out.
+- **Regulation 6 rewritten** (substituted by DUAA s.112(2), in force 5 Feb 2026): now a general prohibition on storage of/access to information in terminal equipment — expressly covering instigated storage/access and collecting/monitoring information automatically emitted by the device — subject to exceptions in **new Schedule A1** (DUAA Sch 12). New **reg 6A** power for the Secretary of State to amend the exceptions.
+- **Schedule A1 exceptions**: consent following clear and comprehensive information (signifiable via browser/app settings); transmission; strictly necessary for a requested service; plus the widened low-risk purposes — first-party **statistical/analytics** to improve the service, **appearance/functionality** preferences, **security** updates, emergency assistance — with clear information and an opt-out.
 - **Soft opt-in extended to charities** for electronic marketing.
 - **Fines raised** from £500k to UK GDPR levels: up to **£17.5m / 4% global turnover**.
+- Full consolidated text: `sources/pecr-2003-consolidated-2026-07-16.pdf`.
 
 ## 7. Statutory complaints process
 

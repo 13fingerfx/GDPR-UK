@@ -106,7 +106,10 @@ Processing is lawful only if at least one applies, identified **before** process
 
 ## PECR — cookies and electronic marketing (as amended by DUAA)
 
-- Consent (to UK GDPR standard) is required before storing or accessing information on a user's device — **except** (DUAA amendments): strictly necessary purposes, and now also **low-risk purposes**: statistical/analytics purposes to improve the service, appearance/functionality preferences, software security updates, and emergency assistance — subject to clear information and a right to object/opt-out.
+Full consolidated text (point-in-time 16 July 2026): `sources/pecr-2003-consolidated-2026-07-16.pdf`.
+
+- **Structure since 5 Feb 2026**: regulation 6 was **substituted** by DUAA s.112(2) as a general prohibition on storing or accessing information in terminal equipment (expressly including instigating storage/access and collecting/monitoring information automatically emitted by the device), **subject to the exceptions in new Schedule A1** (inserted by DUAA Sch 12). Cite "PECR reg 6 and Sch A1 (as substituted/inserted by DUAA 2025)".
+- **Schedule A1 exceptions** include: consent after clear and comprehensive information (para 2 — consent may be signified via browser or application settings); transmission of a communication (para 3); strictly necessary for a requested service (para 4); and the new **low-risk purposes** — statistical/analytics purposes to improve the service, appearance/functionality preferences, software security updates, and emergency assistance — subject to clear information and a right to object/opt-out. New reg 6A lets the Secretary of State amend the exceptions by regulations.
 - Direct electronic marketing requires consent, or the "soft opt-in" for existing customers (DUAA extends the soft opt-in to **charities**).
 - **DUAA raised PECR fines** from £500,000 to UK GDPR levels: up to **£17.5m or 4% of global annual turnover**.
 
