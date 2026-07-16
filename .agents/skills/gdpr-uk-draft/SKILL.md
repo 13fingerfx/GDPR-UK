@@ -1,6 +1,6 @@
 ---
 name: gdpr-uk-draft
-description: Draft and review UK GDPR compliance documents from the repository's full templates, including privacy notices, records of processing activities, processor agreements, DPIAs, LIAs, transfer risk assessments, and breach notifications. Use when Codex must draft, write, create, review, or check a UK privacy or data-protection document, or explain what it must contain, with citations to UK GDPR, DPA 2018, DUAA 2025, and ICO guidance.
+description: Draft and review UK privacy and data-protection documents from the repository's full templates with precise legal citations. Use for privacy notices, records of processing activities, processor agreements, DPIAs, LIAs, transfer risk assessments, breach notifications, and questions about what those documents must contain. Do not use for a code audit, a live DSAR workflow, or general legal Q&A.
 ---
 
 # UK GDPR Document Drafting
@@ -38,7 +38,7 @@ Do not improvise international-transfer clauses; populate the official instrumen
 - Apply UK GDPR and DPA 2018 as amended by DUAA 2025. Flag EU divergences when EU law may also apply.
 - For a live breach, produce the Art 33 notification content before polishing other material because the 72-hour clock may be running.
 - Keep facts consistent across privacy notices, RoPAs, DPIAs, processor agreements, and breach communications.
-- Verify current, high-stakes legal points against official legislation.gov.uk or ico.org.uk sources.
+- Verify current, high-stakes legal points against official legislation.gov.uk or ico.org.uk sources. When browsing, prefer those official sources over secondary summaries.
 
 ## Standing note
 

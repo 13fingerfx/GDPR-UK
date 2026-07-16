@@ -1,4 +1,4 @@
 interface:
   display_name: "UK GDPR Review"
-  short_description: "Audit systems for UK GDPR compliance"
+  short_description: "Audit code and data flows for UK GDPR"
   default_prompt: "Use $gdpr-uk-review to audit this code or data flow for UK GDPR compliance."

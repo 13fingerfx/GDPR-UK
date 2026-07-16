@@ -1,6 +1,6 @@
 ---
 name: gdpr-uk-review
-description: Review code, configurations, database schemas, APIs, and data flows for UK GDPR and data-protection compliance. Use when Codex must audit a system for privacy issues, personal-data handling, ICO readiness, cookie and consent flows, retention, logging, rights support, automated decisions, processors, transfers, security, or breach readiness. Produce severity-rated findings with evidence and precise UK GDPR, DPA 2018, DUAA 2025, PECR, and ICO citations.
+description: Audit code, configurations, database schemas, APIs, and data flows for UK GDPR and data-protection compliance. Use for privacy reviews of personal-data handling, cookie and consent flows, retention, logging, rights support, automated decisions, processors, transfers, security, breach readiness, and ICO readiness. Produce evidence-based, severity-rated findings with precise UK GDPR, DPA 2018, DUAA 2025, PECR, and ICO citations. Do not use for document drafting or general legal Q&A.
 ---
 
 # UK GDPR Compliance Review
@@ -67,4 +67,5 @@ Use these severities:
 - Cite a specific provision for every finding; never cite only “GDPR.”
 - Apply UK law as amended by DUAA 2025. Where EU law may also apply, flag material divergence and overlapping obligations.
 - Treat absence of evidence as risk, not proof of breach.
+- Keep the review read-only unless the user separately asks to implement remediations.
 - Never invent provisions. Check the repository references or primary sources; if uncertainty remains, name the governing instrument and recommend verification.

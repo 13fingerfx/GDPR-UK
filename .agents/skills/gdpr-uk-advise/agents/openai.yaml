@@ -1,4 +1,4 @@
 interface:
   display_name: "UK GDPR Advice"
-  short_description: "Answer UK data protection questions"
+  short_description: "Answer UK GDPR questions with citations"
   default_prompt: "Use $gdpr-uk-advise to answer this UK data protection question with precise citations."

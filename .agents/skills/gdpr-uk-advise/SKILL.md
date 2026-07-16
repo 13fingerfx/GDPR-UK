@@ -1,6 +1,6 @@
 ---
 name: gdpr-uk-advise
-description: UK data protection advisory Q&A covering UK GDPR, the Data Protection Act 2018, the Data (Use and Access) Act 2025 (DUAA), PECR, and ICO guidance with precise citations. Use when Codex must explain whether processing is lawful or compliant, how to handle a DSAR or breach, which lawful basis or exemption applies, or the rules for transfers, cookies, marketing, automated decision-making, children's data, and ICO enforcement.
+description: Answer UK data-protection questions with precise citations to UK GDPR, the Data Protection Act 2018, the Data (Use and Access) Act 2025 (DUAA), PECR, and ICO guidance. Use for questions about lawfulness, compliance, lawful bases, exemptions, breaches, transfers, cookies, marketing, automated decision-making, children's data, or ICO enforcement. For a live DSAR, document drafting, or a code and system audit, use the dedicated GDPR-UK skill instead.
 ---
 
 # UK GDPR Advisory
@@ -16,7 +16,7 @@ Resolve paths relative to this skill directory.
 - Read `../../../references/exemptions.md` for questions about withholding data, refusing rights requests, DSAR carve-outs, or public-sector and law-enforcement contexts.
 - Consult `../../../sources/SOURCES.md` to identify the appropriate primary source when article- or section-level detail is needed.
 
-Primary sources include the complete consolidated UK GDPR, DPA 2018, DUAA 2025, consolidated PECR, ICO exemptions and right-of-access guidance, and ICO breach-assessment guidance in `../../../sources/`. For current or high-stakes conclusions, verify against the latest official legislation.gov.uk or ico.org.uk material as well.
+Primary sources include the complete consolidated UK GDPR, DPA 2018, DUAA 2025, consolidated PECR, ICO exemptions and right-of-access guidance, and ICO breach-assessment guidance in `../../../sources/`. For current or high-stakes conclusions, verify against the latest official legislation.gov.uk or ico.org.uk material as well. When browsing, prefer those official sources and do not rely on secondary summaries for dispositive legal claims.
 
 ## Answer workflow
 

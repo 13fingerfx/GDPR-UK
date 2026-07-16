@@ -1,6 +1,6 @@
 ---
 name: gdpr-uk-dsar
-description: Run an end-to-end UK subject access request workflow under UK GDPR Article 15, covering recognition, identity checks, clarification and clock pauses, reasonable and proportionate searches, exemptions, third-party redactions, response assembly, and lawful refusal. Use when Codex must handle a received SAR or DSAR, calculate its deadline, decide whether to charge or refuse, plan searches and redactions, or deal with third-party, parental, or former-employee requests.
+description: Run an end-to-end UK subject access request workflow under UK GDPR Article 15. Use for a received SAR or DSAR, deadline calculation, identity checks, clarification and clock pauses, reasonable and proportionate searches, exemptions, third-party redactions, response assembly, fees, or lawful refusal, including third-party, parental, and former-employee requests. Do not use for general legal Q&A when no live request is being handled.
 ---
 
 # UK DSAR Response Workflow
@@ -20,7 +20,7 @@ The bundled ICO right-of-access guidance predates DUAA commencement on 5 Februar
 ## Stage 0: Triage on receipt
 
 - Recognise requests made through any channel; no form, magic words, or GDPR reference is required.
-- Log the received date. Day one is receipt; the deadline is the corresponding date in the following month, moving to the next working day if necessary.
+- Log the received date. Day one is receipt; the deadline is the corresponding date in the following month, moving to the next working day if necessary. Calculate the exact date with calendar arithmetic and verify bank holidays for the relevant UK nation against current official information.
 - Route the request internally without delay.
 
 ## Stage 1: Validate the requester
