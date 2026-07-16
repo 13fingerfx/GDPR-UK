@@ -2,11 +2,9 @@
 
 A Claude Code plugin for working with **UK GDPR**, the **Data Protection Act 2018**, and the **Data (Use and Access) Act 2025 (DUAA)**. It reviews code and data flows for compliance gaps, guides the drafting of privacy documents, and answers UK data protection questions — always with precise citations (UK GDPR articles, DPA 2018 sections and Schedules, PECR regulations, ICO guidance) suitable to hand to a DPO or legal counsel.
 
-> ## ⚠️ Version 1 scope — please read before adopting
+> ## ⚠️ Scope — please read before adopting
 >
-> **This release (v1) provides structured guidance and completeness checklists — not finished legal templates.** The `draft` skill will help you build privacy notices, RoPAs, DPIAs, processor agreements, LIAs, and breach notifications by walking mandatory contents item-by-item, but its outputs are **working drafts** that must be reviewed by your Data Protection Officer or legal counsel before adoption or publication.
->
-> Any third party using or redistributing this plugin should make this limitation clear to their own users. **Full document templates are planned for v2**, which is intended to follow swiftly.
+> **v2 includes full document templates** (privacy notice, RoPA, DPIA, Art 28 processor agreement, LIA, and Art 33/34 breach notifications) in `templates/`, alongside official ICO instruments in `sources/` (IDTA, UK Addendum, ICO DPIA and RoPA templates). Outputs are **working drafts**: they must be reviewed by your Data Protection Officer or legal counsel before adoption or publication, and any third party using or redistributing this plugin should make that clear to their own users.
 >
 > Nothing produced by this plugin is legal advice, and no solicitor–client relationship arises from its use.
 
@@ -15,7 +13,7 @@ A Claude Code plugin for working with **UK GDPR**, the **Data Protection Act 201
 | Skill | Command | Auto-invokes when you… |
 |---|---|---|
 | **Compliance review** | `/gdpr-uk:review` | ask to review/audit code, schemas, APIs, configs, or data flows for GDPR or privacy compliance |
-| **Document guidance** | `/gdpr-uk:draft` | ask to draft or review a privacy notice, RoPA, DPIA, processor agreement (DPA), LIA, or breach notification |
+| **Document drafting** | `/gdpr-uk:draft` | ask to draft or review a privacy notice, RoPA, DPIA, processor agreement (DPA), LIA, or breach notification — instantiates the full templates in `templates/` from your facts |
 | **Advisory Q&A** | `/gdpr-uk:advise` | ask whether something is lawful, how to handle a DSAR or breach, which lawful basis or exemption applies, transfer/cookie/marketing rules, etc. |
 
 All three skills also trigger automatically from natural requests — the slash commands are optional.
@@ -31,7 +29,9 @@ The skills are grounded in a distilled reference library (`references/`) coverin
 - The full DPA 2018 **Schedule 2–4 exemptions** with their prejudice tests, plus the Part 3 law-enforcement and Part 4 intelligence-services regimes
 - Enforcement, penalties, and the DUAA statutory complaints process
 
-Primary sources are included in this repository: the full **Data Protection Act 2018** (`data-protection-act-2018.pdf`), the **ICO Guide to Data Protection Exemptions** (`ico-guide-to-data-protection-exemptions.pdf`), and the **GOV.UK UK GDPR overview** (`uk-gdpr-from-govuk.pdf`). The skills consult the Act directly for section-level detail.
+### Primary sources (`sources/`)
+
+Verified source documents ship with the plugin — see `sources/SOURCES.md` for the full manifest, verified coverage of each file, and known gaps. Highlights: the complete **DPA 2018** and **DUAA 2025** as enacted; the **UK GDPR consolidated text** (point-in-time 5 Feb 2026, Articles 1–35 including Arts 22A–22D); ICO detailed guidance on **right of access** (Dec 2025) and **breach assessment**; the ICO **high-risk (DPIA) list** and **exemptions guide**; and the official **IDTA**, **UK Addendum**, **ICO DPIA template** and **processor RoPA workbook**. The skills consult these directly for section-level detail.
 
 ## Installation
 
@@ -63,8 +63,9 @@ The reference material is current as of **July 2026** and reflects the DUAA 2025
 
 ## Roadmap
 
-- **v2 (next)**: full document templates — privacy notice, RoPA, DPIA, Art 28 processor agreement, LIA, and Art 33/34 breach notification letters — replacing the v1 checklist-guided drafting flow.
-- Candidate later additions: DSAR response workflow, transfer risk assessment (TRA) helper, Children's Code conformance checks.
+- ~~v2: full document templates~~ — **shipped** (`templates/`).
+- Candidate v3 additions: DSAR response workflow (building on the ICO right-of-access guidance in `sources/`), transfer risk assessment (TRA) helper, Children's Code conformance checks.
+- Source gaps to fill (see `sources/SOURCES.md` § Wanted): UK GDPR Arts 36–99 + Annexes (consolidated), PECR as amended, ICO DPIA guidance, the Children's Code itself, ICO controller RoPA template.
 
 ## License
 

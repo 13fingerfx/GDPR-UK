@@ -12,7 +12,7 @@ Question to answer: $ARGUMENTS (if empty, ask what the user wants to know).
 - `${CLAUDE_PLUGIN_ROOT}/references/duaa-2025-changes.md` — always; the law was materially amended with effect from February 2026 and pre-DUAA training knowledge is stale on ADM, DSARs, transfers, cookies, and PECR fines
 - `${CLAUDE_PLUGIN_ROOT}/references/exemptions.md` — for any question about withholding data, refusing rights requests, DSAR carve-outs, or public-sector/law-enforcement contexts
 
-The source legislation is also in this plugin's repository (`data-protection-act-2018.pdf`, `ico-guide-to-data-protection-exemptions.pdf`, `uk-gdpr-from-govuk.pdf`) — consult the Act directly for section-level detail the summaries don't cover.
+Primary sources live in `${CLAUDE_PLUGIN_ROOT}/sources/` — see `sources/SOURCES.md` for the manifest, verified coverage and known gaps. Highlights: the full DPA 2018 (`data-protection-act-2018.pdf`, as enacted), the full DUAA 2025 (`data-use-and-access-act-2025.pdf` — check here for exact amendment wording), UK GDPR consolidated text point-in-time 5 Feb 2026 (`uk-gdpr-2026-02-05-arts-1-35.pdf` — **Articles 1–35 only**, including the DUAA-inserted Arts 22A–22D), the ICO exemptions guide, the ICO right-of-access guidance (124 pages, Dec 2025), and the ICO breach-assessment guide. Consult the Acts directly for section-level detail the summaries don't cover; for UK GDPR Arts 36–99 rely on `references/legal-framework.md` and flag that the consolidated text for those articles is not yet in the source set.
 
 ## How to answer
 
