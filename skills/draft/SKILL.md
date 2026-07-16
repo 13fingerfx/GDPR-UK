@@ -19,6 +19,7 @@ Read `${CLAUDE_PLUGIN_ROOT}/references/legal-framework.md` and `${CLAUDE_PLUGIN_
 | LIA | `${CLAUDE_PLUGIN_ROOT}/templates/lia.md` | Art 6(1)(f) |
 | Breach notification — ICO | `${CLAUDE_PLUGIN_ROOT}/templates/breach-notification-ico.md` | Art 33 |
 | Breach notification — individuals | `${CLAUDE_PLUGIN_ROOT}/templates/breach-notification-individuals.md` | Art 34 |
+| Transfer risk assessment (TRA) | `${CLAUDE_PLUGIN_ROOT}/templates/tra.md` — applies the DUAA "not materially lower" test | Art 46 (as amended by DUAA 2025) |
 | International transfers | use the official instruments directly: `sources/ico-idta.pdf` (IDTA) / `sources/ico-addendum.pdf` (UK Addendum) — populate their tables; do not improvise transfer clauses | Art 46, DPA 2018 s.119A |
 
 ## Workflow

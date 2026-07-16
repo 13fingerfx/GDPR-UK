@@ -14,7 +14,8 @@ A Claude Code plugin for working with **UK GDPR**, the **Data Protection Act 201
 |---|---|---|
 | **Compliance review** | `/gdpr-uk:review` | ask to review/audit code, schemas, APIs, configs, or data flows for GDPR or privacy compliance |
 | **Document drafting** | `/gdpr-uk:draft` | ask to draft or review a privacy notice, RoPA, DPIA, processor agreement (DPA), LIA, or breach notification — instantiates the full templates in `templates/` from your facts |
-| **Advisory Q&A** | `/gdpr-uk:advise` | ask whether something is lawful, how to handle a DSAR or breach, which lawful basis or exemption applies, transfer/cookie/marketing rules, etc. |
+| **Advisory Q&A** | `/gdpr-uk:advise` | ask whether something is lawful, how to handle a breach, which lawful basis or exemption applies, transfer/cookie/marketing rules, etc. |
+| **DSAR workflow** | `/gdpr-uk:dsar` | say you've received a subject access request — runs the full response workflow: deadline calculation, identity checks, clarification and clock-pause, search plan, exemptions/redactions, response assembly, lawful refusal |
 
 All three skills also trigger automatically from natural requests — the slash commands are optional.
 
@@ -54,7 +55,9 @@ Can you audit this service for GDPR issues before we ship?
 What does an Art 28 processor agreement have to contain?
 
 /gdpr-uk:advise do we need consent for first-party analytics cookies?
-How long do we have to answer a subject access request?
+
+/gdpr-uk:dsar we received a SAR from an ex-employee on 3 July — what now?
+Can we refuse this subject access request as excessive?
 ```
 
 ## Currency
@@ -64,7 +67,8 @@ The reference material is current as of **July 2026** and reflects the DUAA 2025
 ## Roadmap
 
 - ~~v2: full document templates~~ — **shipped** (`templates/`).
-- Candidate v3 additions: DSAR response workflow (building on the ICO right-of-access guidance in `sources/`), transfer risk assessment (TRA) helper, Children's Code conformance checks.
+- ~~v3: DSAR response workflow + transfer risk assessment (TRA) helper~~ — **shipped** (`skills/dsar/`, `templates/tra.md`).
+- Next candidate: Children's Code conformance checks — parked until the Code itself (15 standards) is sourced.
 - Source gaps to fill (see `sources/SOURCES.md` § Wanted): ICO general DPIA guidance, the Children's Code itself, ICO controller RoPA template. The legislative backbone (UK GDPR, DPA 2018, DUAA 2025, PECR) is complete.
 
 ## License
