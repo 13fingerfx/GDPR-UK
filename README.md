@@ -31,7 +31,7 @@ The skills are grounded in a distilled reference library (`references/`) coverin
 
 ### Primary sources (`sources/`)
 
-Verified source documents ship with the plugin — see `sources/SOURCES.md` for the full manifest, verified coverage of each file, and known gaps. Highlights: the complete **DPA 2018** and **DUAA 2025** as enacted; the **UK GDPR consolidated text** (point-in-time 5 Feb 2026, Articles 1–35 including Arts 22A–22D); ICO detailed guidance on **right of access** (Dec 2025) and **breach assessment**; the ICO **high-risk (DPIA) list** and **exemptions guide**; and the official **IDTA**, **UK Addendum**, **ICO DPIA template** and **processor RoPA workbook**. The skills consult these directly for section-level detail.
+Verified source documents ship with the plugin — see `sources/SOURCES.md` for the full manifest and verified coverage of each file. Highlights: the **complete UK GDPR consolidated text** (point-in-time 5 Feb 2026 — all 99 Articles and Annexes 1–2, including the DUAA-inserted provisions); the complete **DPA 2018** and **DUAA 2025** as enacted; **PECR fully consolidated to 16 July 2026**; ICO detailed guidance on **right of access** (Dec 2025) and **breach assessment**; the ICO **high-risk (DPIA) list** and **exemptions guide**; and the official **IDTA**, **UK Addendum**, **ICO DPIA template** and **processor RoPA workbook**. The skills consult these directly for article/section-level detail.
 
 ## Installation
 
@@ -65,7 +65,7 @@ The reference material is current as of **July 2026** and reflects the DUAA 2025
 
 - ~~v2: full document templates~~ — **shipped** (`templates/`).
 - Candidate v3 additions: DSAR response workflow (building on the ICO right-of-access guidance in `sources/`), transfer risk assessment (TRA) helper, Children's Code conformance checks.
-- Source gaps to fill (see `sources/SOURCES.md` § Wanted): UK GDPR Arts 36–99 + Annexes (consolidated), PECR as amended, ICO DPIA guidance, the Children's Code itself, ICO controller RoPA template.
+- Source gaps to fill (see `sources/SOURCES.md` § Wanted): ICO general DPIA guidance, the Children's Code itself, ICO controller RoPA template. The legislative backbone (UK GDPR, DPA 2018, DUAA 2025, PECR) is complete.
 
 ## License
 

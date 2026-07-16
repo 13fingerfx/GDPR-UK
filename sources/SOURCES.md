@@ -8,7 +8,7 @@ Every file in this directory was inspected and verified on 16 July 2026. Skills 
 |---|---|---|
 | `data-protection-act-2018.pdf` | Data Protection Act 2018, c.12, as enacted (TSO print) | Complete — 354 pages, all Parts and Schedules. **As enacted**: does not incorporate DUAA 2025 amendments — cross-check amended sections against `references/duaa-2025-changes.md` |
 | `data-use-and-access-act-2025.pdf` | Data (Use and Access) Act 2025, c.18, as enacted | Complete — 276 pages. This is the amending Act itself; read its Part on data protection for the exact amendment wording |
-| `uk-gdpr-2026-02-05-arts-1-35.pdf` | UK GDPR consolidated text, point-in-time 5 Feb 2026 (legislation.gov.uk) — **Articles 1–35 only** | Partial — includes DUAA-inserted Arts 4A, 8A, 11A, 22A–22D. **Missing Arts 36–99 and Annexes 1–2** (the download truncated) |
+| `uk-gdpr-2026-02-05-complete.pdf` | UK GDPR consolidated text, point-in-time 5 Feb 2026 (legislation.gov.uk, generated 14 Jul 2026, incorporating all changes in force to that date) | **Complete** — 145 pages, Articles 1–99 and Annexes 1–2 all verified present, including DUAA-inserted Arts 4A, 8A, 11A, 22A–22D, Annex 1 (recognised legitimate interests) and the Art 45 "not materially lower" data protection test |
 | `uk-gdpr-from-govuk.pdf` | GOV.UK overview page of UK data protection | Complete but non-authoritative summary |
 | `pecr-2003-consolidated-2026-07-16.pdf` | PECR (SI 2003/2426), legislation.gov.uk point-in-time **16 July 2026** — fully amended | Complete — 47 pages. Verified to carry the DUAA rewrite: reg 6 substituted (5 Feb 2026) by DUAA s.112(2), new reg 6A, and Schedule A1 (inserted by DUAA Sch 12) containing the consent condition and exceptions |
 
@@ -34,10 +34,11 @@ Every file in this directory was inspected and verified on 16 July 2026. Skills 
 - `pecr-2003.pdf` — the **original as-made 2003 SI**. Its regulation 6 predates the 2011 consent amendment (it says "opportunity to refuse", not consent) and none of the DUAA changes — actively misleading for current advice.
 - `ico-childrens-code-guidance.pdf`, `ico-documentation-guidance.pdf` — website landing-page printouts with navigation only, no substantive guidance.
 - `dpia-template.docx` (removed 16 July 2026) — duplicate of `ico-dpia-template.docx` (same ICO Sample DPIA template, re-downloaded).
+- `uk-gdpr-2026-02-05-arts-1-35.pdf` (removed 16 July 2026) — Articles 1–35 capture, superseded by the complete `uk-gdpr-2026-02-05-complete.pdf`.
 
 ## Wanted — gaps to fill
 
-1. **UK GDPR Articles 36–99 + Annexes 1–2** (point-in-time 5 Feb 2026 or later). Best source: legislation.gov.uk's own generated PDF at `https://www.legislation.gov.uk/eur/2016/679/2026-02-05/data.pdf` — this is the whole consolidated instrument in one file (avoids browser print truncation).
+1. ~~UK GDPR Articles 36–99 + Annexes 1–2~~ — **filled** 16 July 2026: the complete consolidated instrument is `uk-gdpr-2026-02-05-complete.pdf`.
 2. ~~PECR as amended~~ — **filled** 16 July 2026 (`pecr-2003-consolidated-2026-07-16.pdf`).
 3. **ICO DPIA guidance** — the general "how to do a DPIA" document (the two files received under this description so far were a worked example and the CCTV-specific SCC/ICO guidance).
 4. **ICO Children's Code** — the Age Appropriate Design Code itself (15 standards), PDF from ico.org.uk.
