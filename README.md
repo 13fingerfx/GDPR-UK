@@ -4,7 +4,7 @@ A Claude Code plugin for working with **UK GDPR**, the **Data Protection Act 201
 
 > ## ⚠️ Scope — please read before adopting
 >
-> **v2 includes full document templates** (privacy notice, RoPA, DPIA, Art 28 processor agreement, LIA, and Art 33/34 breach notifications) in `templates/`, alongside official ICO instruments in `sources/` (IDTA, UK Addendum, ICO DPIA and RoPA templates). Outputs are **working drafts**: they must be reviewed by your Data Protection Officer or legal counsel before adoption or publication, and any third party using or redistributing this plugin should make that clear to their own users.
+> This plugin includes full document templates (privacy notice, RoPA, DPIA, Art 28 processor agreement, LIA, transfer risk assessment, and Art 33/34 breach notifications) in `templates/`, an end-to-end DSAR response workflow, and official ICO instruments in `sources/` (IDTA, UK Addendum, ICO DPIA and RoPA templates). Outputs are **working drafts**: they must be reviewed by your Data Protection Officer or legal counsel before adoption or publication, and any third party using or redistributing this plugin should make that clear to their own users.
 >
 > Nothing produced by this plugin is legal advice, and no solicitor–client relationship arises from its use.
 
@@ -17,7 +17,7 @@ A Claude Code plugin for working with **UK GDPR**, the **Data Protection Act 201
 | **Advisory Q&A** | `/gdpr-uk:advise` | ask whether something is lawful, how to handle a breach, which lawful basis or exemption applies, transfer/cookie/marketing rules, etc. |
 | **DSAR workflow** | `/gdpr-uk:dsar` | say you've received a subject access request — runs the full response workflow: deadline calculation, identity checks, clarification and clock-pause, search plan, exemptions/redactions, response assembly, lawful refusal |
 
-All three skills also trigger automatically from natural requests — the slash commands are optional.
+All four skills also trigger automatically from natural requests — the slash commands are optional.
 
 ### Reference library
 
