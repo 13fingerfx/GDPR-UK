@@ -1,0 +1,4 @@
+interface:
+  display_name: "UK GDPR Drafting"
+  short_description: "Draft UK data protection documents"
+  default_prompt: "Use $gdpr-uk-draft to create or review this UK data protection document."
